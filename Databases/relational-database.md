@@ -683,7 +683,7 @@ COMMIT; -- Changes are now permanent and will survive a crash.
 
 ---
 
-## 📚 Summary of ACID Properties
+### 📚 Summary of ACID Properties
 
 | Property    | Description                                                  |
 | ----------- | ------------------------------------------------------------ |
@@ -692,5 +692,40 @@ COMMIT; -- Changes are now permanent and will survive a crash.
 | Isolation   | Prevents interference between concurrent transactions.       |
 | Durability  | Ensures committed transactions persist even after a failure. |
 
+---
 
 ---
+
+# Database Constraints
+
+## 📋 Summary of Constraints
+
+| Constraint  | Description                                                     |
+| ----------- | --------------------------------------------------------------- |
+| NOT NULL    | Ensures a column cannot have NULL values.                       |
+| UNIQUE      | Ensures all values in a column are unique.                      |
+| PRIMARY KEY | Combines NOT NULL and UNIQUE to uniquely identify each record.  |
+| FOREIGN KEY | Establishes a relationship between two tables.                  |
+| CHECK       | Ensures all values in a column satisfy a specific condition.    |
+| DEFAULT     | Assigns a default value to a column if no value is provided.    |
+| INDEX       | Improves query performance but does not enforce data integrity. |
+
+---
+
+---
+
+# Database Types
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+---
+
+## Entity and Relationship in database.
+
+## ![alt text](image-2.png)
+
+# Scalability
+
+![alt text](image-3.png)
